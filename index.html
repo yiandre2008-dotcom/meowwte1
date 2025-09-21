@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meowte Game</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      background: url("meowte.jpeg") no-repeat center center;
+      background-size: cover;
+      font-family: 'Baloo 2', cursive;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .menu span {
+      font-size: 36px;
+      cursor: pointer;
+      transition: transform 0.2s ease, color 0.2s ease;
+    }
+
+    .menu span:hover {
+      transform: scale(1.1);
+      color: #ffd966;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+   
+    <span onclick="window.location.href='game-project/menu.html'">Mulai</span>
+  </div>
+</body>
+</html>
